@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+} 
+html, body{
+  height: 110%;
+  width: 100%;
+  background-color: #d0debb71;
+}
+#header{
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ justify-content: center;
+}
+#header h1{
+  font-size: 6vw;
+  color: rgb(32, 83, 158);
+  font-weight: 800;
+  letter-spacing: 3px;
+  word-spacing: 15px;
+}
+#header h5{
+   font-size: 3vw;
+  color: rgb(74, 74, 74);
+}
+.card-list .card-item{
+  background: #d2e0e0;
+  width: 416px;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  transition: 1s;
+}
+.card-list .card-item:hover{
+  transform: scale(1.2);
+  z-index: 2;
+}
+.card-list .card-item img{
+  margin-top: 2vh;
+  border-radius: 25px;
+}
+#container{
+    height: 60vh;
+    margin: 10vh;
+} 
+.card-list .card-item .text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+} 
+.card-list .card-item .text p{
+
+  align-items: center;
+  padding-top: 25px;
+} 
+@media screen and (max-width :600px)
+{
+  .card-list .card-item{
+    height: 90vh;
+    height: auto; 
+    margin-bottom: 20px; 
+    
+  }
+  .card-list .card-item img{
+    width: 50vw;
+  }
+  #header {
+    height: auto; 
+    padding: 20px; 
+}
+ .slider-wrapper {
+    height: auto;
+    padding: 0px 20px;
+}
+ #container {
+    margin: 4vh 0; 
+}
+}
+
+
+
+
